@@ -1,0 +1,11 @@
+python train.py \
+--epochs 60 \
+--batch-size 6 \
+--init-lr 1e-4 \
+--num-workers 4 \
+--momentum 0.9 \
+--gpu_id 1 \
+--epoch-save 5 \
+--warm-up 10 \
+--debug false \
+--fold $1
